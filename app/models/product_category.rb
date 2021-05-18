@@ -3,5 +3,5 @@ class ProductCategory < ApplicationRecord
 
   has_many :products
 
-  validates :title, precence: true
+  validates :title, presence: true
 end

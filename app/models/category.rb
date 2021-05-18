@@ -1,7 +1,7 @@
 class Category < ApplicationRecord
     has_many :restaurants
 
-    validates :title, precence: true
+    validates :title, presence: true
 
     has_one_attached :image
 end
