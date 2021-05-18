@@ -7,7 +7,7 @@ json.street restaurant.street
 json.neighborhood restaurant.neighborhood
 json.number restaurant.number
 json.complement restaurant.complement
-​
+​ 
 json.review restaurant.reviews&.average(:value).round()
 json.image_url polymorphic_url(restaurant.image) if restaurant.image.attached?
 ​
